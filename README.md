@@ -35,19 +35,22 @@ An interactive map-based application to visualize shortest path algorithms like 
    git clone https://github.com/Ashmit-A-Rawat/MapNavigationSystem.git
 2. Open index.html in your browser. Optionally, use a live server extension in VS Code for better local development experience. 
 
-###🧭 How to Use ------------- 
+
+## 🧭 How to Use
 1. Click “Generate Graph” to create a new map.
 2. Select start and destination cities.
-3. Choose an algorithm (Dijkstra or A*). C
+3. Choose an algorithm (Dijkstra or A*).
 4. Click “Find Route” to compute and display the path.
 5. View stats and turn-by-turn directions.
 6. Click “Clear Route” to reset the simulation.
 
-###📐 Technical Highlights ----------------------- 
+## 📐 Technical Highlights
 - HTML5 <canvas> drawing with dynamic resizing
-- Object-oriented JS design: • MapNavigationSystem class • PriorityQueue class for algorithmic efficiency
+- Object-oriented JS design:
+  - MapNavigationSystem class
+  - PriorityQueue class for algorithmic efficiency
 - Bidirectional edge creation between nearby nodes
 - Euclidean distance calculations for realistic paths
 - Directional logic for instructions (bearing + turns)
-- Visual indicators: start, destination, route, and visited nodes 
+- Visual indicators: start, destination, route, and visited nodes
 
